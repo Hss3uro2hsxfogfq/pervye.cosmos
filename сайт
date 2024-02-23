@@ -1,0 +1,350 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космические следы Костромской области</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://pp.userapi.com/c836728/v836728897/fe90/KvKP5_W9Ajk.jpg);
+            background-size: cover;
+            background-position: center;
+            background-color: #f4f4f4;
+            color: #fff;
+       }                         
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+       background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+        color: #ffd700;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin: 20px 0;
+    }
+</style>
+</head>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.star {
+    position: absolute;
+    color: yellow;
+    animation: star-fall 2s linear infinite;
+}
+
+@keyframes star-fall {
+    0% {top: -10px;}
+    100% {top: 100vh;}
+}
+</style>
+</head>
+<body>
+<button onclick="createStar()"><h2>Запустить звездопад</button>
+
+<script>
+function createStar(){
+    let star = document.createElement("span");
+    star.className = "star";
+    star.innerHTML = "★";
+    star.style.left = Math.random() * window.innerWidth + "px";
+    document.body.appendChild(star);
+}
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Выравнивание фотографии</title>
+  <style>
+   .rightpic {
+    float: left; /* Выравнивание по левому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+  </style>
+ </head>
+ <body>
+  <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Roscosmos_logo_ru.svg/2000px-Roscosmos_logo_ru.svg.png" 
+   width="200" height="200" class="rightpic">
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Выравнивание фотографии</title>
+  <style>
+   .rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+  </style>
+ </head>
+ <body>
+  <p><img src="https://duckoms.ru/upload/iblock/ebc/mts1ejp71kevw4mlwcv0u93fszh2zin8.jpg" 
+   width="200" height="200" class="rightpic">
+
+<body>
+<div class="container">
+    <h1>Космические следы Костромской области</h1>
+    <p><strong>📍 Костромская область</p>
+    <p><strong></strong>Уважаемые приезжие и гости нашего славного города!</p>
+    <p><strong></strong> 🪐 Откройте врата космоса вместе с нами! Исследуйте удивительные места космической истории Костромской области. Погрузитесь в мир космических открытий и впечатлений нахродясь на Земле!</p>
+    
+    <h2>Рекомендуем посетить:</h2>
+    <ol>
+        <h2>1. <a href="http://www.eduportal44.ru/planetariy/SitePages/Домашняя.aspx">Костромской планетарий</h2><a> Для знакомства с историей и современными достижениями космонавтики
+         <img src="https://lh3.googleusercontent.com/p/AF1QipOt-q9iaeuQMZZ3Wyggy2w4KZeFG0hC4_xAmZ5I=w600-k" alt= https://lh3.googleusercontent.com/p/AF1QipOt-q9iaeuQMZZ3Wyggy2w4KZeFG0hC4_xAmZ5I=w600-k>
+<!DOCTYPE html>
+<html>
+<head>
+
+<html>
+<head>
+
+  <p> 🌎 Костромской планетарий имеет богатую историю и является уникальным объектом космической инфраструктуры. «Звездный Дом Костромы» (Костромской Областной Планетарий) Костромской Планетарий был открыт 18 февраля 1951 года, разместившись в здании бывшей церкви. Наш Планетарий является одним из старейших планетариев в России </p>
+    <title>Отметка на карте - Планетарий, Кострома</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+    <style>
+        #map {
+            width: 700px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Отметка на карте - Планетарий, Кострома</h1>
+    <div id="map"></div>
+    <script>
+        ymaps.ready(function () {
+            var map = new ymaps.Map('map', {
+                center: [57.763147, 40.93352489999999],
+                zoom: 18
+            });
+
+            var placemark = new ymaps.Placemark([57.763147, 40.93352489999999], {
+                hintContent: 'Парк Победы, Кострома',
+                balloonContent: 'Парк Победы'
+            });
+
+            map.geoObjects.add(placemark);
+        });
+    </script>
+</body>
+</html>
+
+<h2>2. Звёздная аллея в <a href="https://parki44.ru/park-pobedy2">Парке Победы</h2><a> Место, где увековечены имена заслуженных космонавтов
+          <img src=https://fs3.fotoload.ru/f/0520/1589439969/2e61cb5c9a.jpg alt="Звёздная аллея в Парке Победы">
+<p>🌌 Космические связи с Костромой не разрываются и по сей день. 5 октября прошлого года в нашем городе побывал космонавт, Герой России Сергей Ревин. Он не только открыл в Костроме всероссийскую неделю космоса, но и заложил «Аллею космонавтов» в Парке Победы. В рамках мероприятия костромские  школьники и студенты впервые в истории вышли на прямую связь с космосом, членами 45/46 экспедиции на борту МКС – Михаилом Корниенко, Олегом Кононенко и Сергеем Волковым
+
+<h2>3. <a href="https://www.culture.ru/events/2858258/virtualnaya-ekskursiya-v-planetarii-kosmos-dalyokii-i-blizkii">Виртуальная экскурсия</h2><a> По космическим объектам в Костромской области, доступная через приложение</h2>
+        <img src=https://www.niidar.ru/bitrix/templates/niidar/images/index-photo-8/8.jpg alt="Звёздная аллея в Парке Победы">
+    </ol>
+      <p>🚀 Виртуальная экскурсия позволит туристам ознакомиться с объектами космической инфраструктуры, которые не доступны для обычных посещений
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+ <h1>Факты о планетах</h1>
+<style>
+.planet {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="planet" onclick="showInfo('Меркурий')">Меркурий</div>
+<div class="planet" onclick="showInfo('Венера')">Венера</div>
+<div class="planet" onclick="showInfo('Земля')">Земля</div>
+<div class="planet" onclick="showInfo('Марс')">Марс</div>
+<div class="planet" onclick="showInfo('Юпитер')">Юпитер</div>
+<div class="planet" onclick="showInfo('Сатурн')">Сатурн</div>
+<div class="planet" onclick="showInfo('Уран')">Уран</div>
+<div class="planet" onclick="showInfo('Нептун')">Нептун</div>
+
+<div id="planet-info"></div>
+
+<script>
+function showInfo(planet){
+    let info = "";
+    switch(planet){
+        case "Меркурий":
+            info = "Самая маленькая планета в Солнечной системе";
+            break;
+        case "Венера":
+            info = "Венера является самой горячей планетой";
+            break;
+        case "Земля":
+            info = "Планета, на которой мы живём";
+            break;
+        case "Марс":
+            info = "Самая близкая к Земле планета Солнечной системы";
+            break;
+        case "Юпитер":
+            info = "Самая большая в Солнечной системе";
+            break;
+        case "Сатурн":
+            info = "Планета с кольцами вокруг своей оси";
+            break;
+        case "Уран":
+            info = "Одна из самых холодных планет Солнечной системы";
+            break;
+        case "Нептун":
+            info = "Планета, которую обнаружили с помощью математических вычислений";
+            break;
+    }
+    document.getElementById("planet-info").innerText = info;
+}
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космическая викторина</title>
+</head>
+<body>
+    <h1>Космическая викторина</h1>
+
+    <form id="quizForm">
+        <h3>1. Как называется наша ближайшая звезда?</h3>
+        <input type="radio" name="q1" value="a">а) Проксима Центавра<br>
+        <input type="radio" name="q1" value="b">б) Сириус<br>
+        <input type="radio" name="q1" value="c">в) Солнце<br>
+        <input type="radio" name="q1" value="d">г) Альфа Центавра<br><br>
+
+        <h3>2. Какая планета самая большая в Солнечной системе?</h3>
+        <input type="radio" name="q2" value="a">а) Земля<br>
+        <input type="radio" name="q2" value="b">б) Сатурн<br>
+        <input type="radio" name="q2" value="c">в) Юпитер<br>
+        <input type="radio" name="q2" value="d">г) Венера<br><br>
+
+        <h3>3. Какой спутник Юпитера известен своими вулканами?</h3>
+        <input type="radio" name="q3" value="a">а) Ио<br>
+        <input type="radio" name="q3" value="b">б) Европа<br>
+        <input type="radio" name="q3" value="c">в) Ганимед<br>
+        <input type="radio" name="q3" value="d">г) Каллисто<br><br>
+
+        <h3>4. Сколько спутников у Марса?</h3>
+        <input type="radio" name="q4" value="a">а) 1<br>
+        <input type="radio" name="q4" value="b">б) 2<br>
+        <input type="radio" name="q4" value="c">в) 3<br>
+        <input type="radio" name="q4" value="d">г) 2<br><br>
+
+        <h3>5. Какая планета известна своими кольцами?</h3>
+        <input type="radio" name="q5" value="a">а) Венера<br>
+        <input type="radio" name="q5" value="b">б) Марс<br>
+        <input type="radio" name="q5" value="c">в) Юпитер<br>
+        <input type="radio" name="q5" value="d">г) Сатурн<br><br>
+
+        <input type="button" value="Проверить ответы" onclick="checkQuiz()">
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        function checkQuiz() {
+            let score = 0;
+
+            const answers = ["c", "c", "a", "d", "g"];
+
+            for (let i = 1; i <= 5; i++) {
+                const radios = document.getElementsByName("q" + i);
+                let userAnswer = "";
+
+                radios.forEach(function(radio) {
+                    if (radio.checked) {
+                        userAnswer = radio.value;
+                    }
+                });
+
+                if (userAnswer === answers[i - 1]) {
+                    score++;
+                }
+            }
+
+            document.getElementById("result").innerHTML = "Вы набрали " + score + " из 5 баллов.";
+        }
+    </script>
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архивные фото космической Костромы</title>
+    <style>
+        .photo {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        .caption {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Архивные фото космической Костромы</h1>
+
+    <div class="photo">
+        <img src="https://k1news.ru/upload/medialibrary/55a/55a6ebc4103fad8dcde6f5b3bbd2ba53.jpg" alt="Летчик-космонавт Зудов в Костроме, 1980 г." width="400">
+        <p class="caption">Летчик-космонавт Зудов в Костроме, 1980 г.</p>
+    </div>
+
+    <div class="photo">
+        <img src="https://k1news.ru/upload/medialibrary/2a7/2a741eb5a2fd718362b21f0b062675cf.jpg" alt="Космонавт Сергей Ревин в Костроме, 2015 г." width="400">
+        <p class="caption">Космонавт Сергей Ревин побывал в Костроме в 2015 году</p>
+    </div>
+
+    <div class="photo">
+        <img src="https://k1news.ru/upload/medialibrary/efb/efbd11a211555128390beafe21750933.jpg" alt="Георгий Гречко - частый гость костромского планетария" width="400">
+        <p class="caption">Георгий Гречко — частый гость костромского планетария</p>
+    </div>
+</body>
+</html>
+
+
+</div>
+</body>
+</html>
